@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;;
+}
+
+main{
+width: 100%;
+background-color: lightpink;
+}
+.container{
+	width: 60%;
+	background-color: beige;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	top:50px;
+	margin-left:300px;
+	padding: 25px 20px;
+   border-top: 5px solid  lightpink;
+   border-radius: 15px;
+}
+img{
+	width: 100%;
+	height: 150px;
+}
+h2 {
+	font-size: 2.5rem;
+	font-weight: 600;
+	padding: 25px 20px;
+	text-transform: capitalize;
+		text-align: center;
+
+}
+p{
+	font-size: 1.125rem;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+ul {
+display: block;
+	width:450px;
+	margin-bottom: 15px;
+}
+ul li {
+padding: 15px 20px;
+font-size: 2rem;
+text-transform: capitalize;
+font-weight: 500;	
+}
+ul dl{
+	display: flex;
+	font-size: 1.5rem;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+.instruc ul{
+	list-style: none;
+}
+.instruc ul dl
+{
+	transform: translate(30px,-32px);
+}
+.content-info ul dl{
+	transform: translate(170px,-32px);
+
+}
+.nutritions p{
+	font-size: 1.5rem;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+table 
+{
+	border-collapse: collapse;
+width: 100%;
+
+}
+table tr{
+	width: 20px;
+}
+table td{
+padding: 15px 20px;
+font-size: 2rem;
+font-weight: 400;
+text-transform: capitalize;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+border-bottom: 1px solid grey;
+text-align: center;
+
+}
+.info td{
+transform: translate(150px,-275px);
+border: none;
+}
+@media screen and (max-width:900px){
+.container{
+	padding: 2rem;
+	width: 100%;
+	margin-left: 0px;
+}
+table {
+	bottom: 0;
+	margin: 2rem;
+	height: 200px;
+}
+table .info td{
+padding: 20px;
+transform: translate(120px,-310px);
+}
+
+
+@media screen and (min-width:600px){
+	.container{
+	padding: 2rem;
+	width: 100%;
+	margin-left: 0px;
+}
+	
+
+.info td{
+transform: translate(140px,-300px);
+padding: 15px 10px;
+}
+}
+@media screen and (max-width:510px)
+{ 
+.container{
+	padding: 2rem;
+	width: 100%;
+	margin-left: 0px;
+}
+.info td{
+transform: translate(140px,-380px);
+padding: 15px 10px;
+
+}
+}
+@media screen and (max-width:500px){
+.container{
+	padding: 1rem;
+	width: 100%;
+	margin-left: 0px;
+}
+.info td{
+transform: translate(140px,-450px);
+padding: 50px 10px;
+
+}
+}
+@media screen and (max-width:474px){
+.container{
+	padding: 1rem;
+	width: 100%;
+	margin-left: 0px;
+}
+.info td{
+	transform:translate(150px,-380px);
+	padding:75px 10px;
+}
+table td {
+	margin: 12px;
+	font-size: 1.25rem;
+	font-weight: 500;
+}
+.content-info h2{
+	font-size: 1.5rem;
+}
+.content-info li dl{
+	font-size: 1.125rem;
+	transform: translate(10px);
+}
+.content-info li{
+	font-size: 1.25rem;
+	font-weight: 300;
+	margin: 5px;
+}
+ul{
+	width: 100%;
+}
+}	
+	
+
